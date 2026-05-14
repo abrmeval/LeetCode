@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <UserSecretsId>ReverseLinkedList-8afb33dc9bdad1d998e86c7fb844184364ea3d78a794021ffa42f076e8f2a9e9</UserSecretsId>
+    <TargetFramework>net10.0</TargetFramework>
+    <PublishAot>false</PublishAot>
   </PropertyGroup>
 
 </Project>

@@ -1,7 +1,7 @@
 #:property TargetFramework=net10.0
 #:property PublishAot=false
 
-bool IsValid(string s)
+static bool IsValid(string s)
 {
     //If string length is 1, it cannot be valid
     if (s.Length == 1)
