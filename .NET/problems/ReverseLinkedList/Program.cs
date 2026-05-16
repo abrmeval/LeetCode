@@ -9,7 +9,7 @@ listNode.next.next = new ListNode(3);
 listNode.next.next.next = new ListNode(4);
 
 Solution solution = new Solution();
-solution.ReverseList(listNode);
+var reversedList = solution.ReverseList2(listNode);
 
 // Solution2 solution2 = new Solution2();
 // solution2.ReverseList(listNode);

@@ -21,4 +21,24 @@ public class Solution
         }
         return prev;
     }
+
+      public ListNode? ReverseList2(ListNode head)
+    {
+		// 1,2,3,4
+		ListNode? prev = null;
+		ListNode? next = head.next; //2
+		
+        while (head != null)
+        {
+			//1 -> null
+			// 2 -> 1 -> null
+			//3 -> 2 -> 1 -> null
+			//...
+			// 5 -> 4 -> 3 -> 2 -> 1 -> null
+			head.next = prev; //null // 1
+			prev = head; // 1 //2
+			head = next;  // 2 //3
+        }
+        return head;
+    }
 }
