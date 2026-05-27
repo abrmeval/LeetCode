@@ -1,0 +1,55 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build BrowserHistory",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/BrowserHistory/BrowserHistory.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build MergeTwoSortedLinkedList",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/MergeTwoSortedLinkedList/MergeTwoSortedLinkedList/MergeTwoSortedLinkedList.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build MinimumStack",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/MinimumStack/MinimumStack.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build MyLinkedList",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/MyLinkedList/MyLinkedList.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build ReverseLinkedList",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/ReverseLinkedList/ReverseLinkedList.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET: BrowserHistory",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build BrowserHistory",
+            "program": "${workspaceFolder}/.NET/problems/BrowserHistory/bin/Debug/net10.0/BrowserHistory.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/BrowserHistory",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET: MergeTwoSortedLinkedList",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build MergeTwoSortedLinkedList",
+            "program": "${workspaceFolder}/.NET/problems/MergeTwoSortedLinkedList/MergeTwoSortedLinkedList/bin/Debug/net10.0/MergeTwoSortedLinkedList.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/MergeTwoSortedLinkedList/MergeTwoSortedLinkedList",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET: MinimumStack",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build MinimumStack",
+            "program": "${workspaceFolder}/.NET/problems/MinimumStack/bin/Debug/net9.0/MinimumStack.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/MinimumStack",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET: MyLinkedList",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build MyLinkedList",
+            "program": "${workspaceFolder}/.NET/problems/MyLinkedList/bin/Debug/net10.0/MyLinkedList.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/MyLinkedList",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET: ReverseLinkedList",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build ReverseLinkedList",
+            "program": "${workspaceFolder}/.NET/problems/ReverseLinkedList/bin/Debug/net10.0/ReverseLinkedList.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/ReverseLinkedList",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
