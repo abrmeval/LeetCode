@@ -50,6 +50,16 @@
                 "${workspaceFolder}/.NET/problems/ReverseLinkedList/ReverseLinkedList.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build StackUsingQueues",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/StackUsingQueues/StackUsingQueues.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }

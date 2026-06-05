@@ -53,6 +53,16 @@
             "cwd": "${workspaceFolder}/.NET/problems/ReverseLinkedList",
             "console": "integratedTerminal",
             "stopAtEntry": false
+        },
+        {
+            "name": ".NET: StackUsingQueues",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build StackUsingQueues",
+            "program": "${workspaceFolder}/.NET/problems/StackUsingQueues/bin/Debug/net10.0/StackUsingQueues.dll",
+            "cwd": "${workspaceFolder}/.NET/problems/StackUsingQueues",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
         }
     ]
 }
