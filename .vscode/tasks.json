@@ -60,6 +60,16 @@
                 "${workspaceFolder}/.NET/problems/StackUsingQueues/StackUsingQueues.csproj"
             ],
             "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build InsertionSortKeyValueImplementation",
+            "type": "process",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "${workspaceFolder}/.NET/problems/InsertionSortKeyValueImplementation/InsertionSortKeyValImplementation.csproj"
+            ],
+            "problemMatcher": "$msCompile"
         }
     ]
 }
