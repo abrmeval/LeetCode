@@ -1,7 +1,8 @@
 #:property TargetFramework=net10.0
 #:property PublishAot=false
 
-// Complexity: O(n^2) time and O(1) space
+// Time Complexity: O(n^2)
+// Space Complexity: O(1) 
 // Sorts in ascending order
 static int[] InsertionSort(int[] arr)
 {

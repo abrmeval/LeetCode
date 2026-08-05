@@ -1,6 +1,8 @@
 #:property TargetFramework=net10.0
 #:property PublishAot=false
 
+// Time complexity: O(n log n)
+// Space O(n log n) total allocations across all calls
 static void Sort(int[] array)
 {
     if (array.Length <= 1)

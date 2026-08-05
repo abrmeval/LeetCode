@@ -15,6 +15,8 @@ def bubble_sort(arr):
     
     Returns:
         The sorted list (modifies in place, but also returns for convenience)
+
+    Time complexity is O(n^2)
     """
     n = len(arr)
     
@@ -22,10 +24,12 @@ def bubble_sort(arr):
     for i in range(n):
         # Flag to detect if any swap happened in this pass
         swapped = False
-        
+        print(f"i = {i}")
+
         # In each pass, the largest unsorted element bubbles to the end
         # So we can reduce the range we check by i each time
         for j in range(0, n - i - 1):
+            print(f"j = {j}; j + 1 = {j+1}")
             # Compare adjacent elements
             if arr[j] > arr[j + 1]:
                 # Swap if they're in the wrong order
@@ -40,5 +44,5 @@ def bubble_sort(arr):
 
 
 print("Bubble Sort Algorithm Implementation")
-sorted_array = bubble_sort([64, 34, 25, 12, 22, 11, 90])
+sorted_array = bubble_sort([64, 100, 34, 25, 12, 22, 11, 90])
 print("Sorted Array:", sorted_array)

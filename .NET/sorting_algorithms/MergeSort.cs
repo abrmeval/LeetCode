@@ -2,6 +2,7 @@
 #:property PublishAot=false
 
 // Time Complexity: O(n log n) in all cases
+// Space: O(1)
 static int[] MergeSorting(int[] arr, int left, int right)
 {
     // array, starting index of array, last index of array
