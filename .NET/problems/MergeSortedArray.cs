@@ -25,6 +25,7 @@ void Merge(int[] nums1, int m, int[] nums2, int n)
 
 //Time complexity: O(n + m)
 // Space complexity: O(n + m) 
+// Merge sort algorithm
 static void Merge2(int[] nums1, int m, int[] nums2, int n)
 {
     int i = 0, j = 0, k = 0, u = 0;
