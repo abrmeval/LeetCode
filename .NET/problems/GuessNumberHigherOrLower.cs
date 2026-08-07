@@ -13,7 +13,7 @@ using System.ComponentModel;
  *               otherwise return 0
  * int guess(int num);
  */
- // Time complexity: O(logn)
+// Time complexity: O(logn)
 static int GuessNumber(int n)
 {
     int low = 1;
@@ -55,6 +55,40 @@ static int guess(int n)
     {
         return 0;
     }
+}
+
+//Optimized aproach
+static int GuessNumber2(int n)
+{
+    int low = 1;
+    int high = n;
+    int mid;
+
+    while (low <= high)
+    {
+        // A different way to calculate the mid number, instead of
+        // adding the two numbers and dividing the result by two
+        // we substract high - low divided by two and the result added the low.
+        mid = low + (high - low) / 2;
+        int guessed = guess2(mid);
+
+        if (guessed < 0)
+            high = mid - 1;
+        else if (guessed > 0)
+            low = mid + 1;
+        else
+            return mid;
+    }
+    return -1;
+}
+
+static int guess2(int n)
+{
+    if (n > 13)
+        return -1;
+    if (n < 13)
+        return 1;
+    return 0;
 }
 
 Console.WriteLine(GuessNumber(700));
