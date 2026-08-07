@@ -1,6 +1,10 @@
 
 //Time complexity: O(n)
 // We use it in specific scenarios, not all cases apply
+//Use cases: 
+// - Uniformly distributed data over a known range 
+// - You know the range of values in advance
+// - Large volumes of data that can be distributed roughly evenly
 static int[] Sort(int[] arr)
 {
 
