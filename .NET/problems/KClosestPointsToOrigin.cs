@@ -1,3 +1,5 @@
+#:property TargetFramework=net10.0
+#:property PublishAot=false
 
 //Time complexity: O(n^2)
 int[][] KClosest(int[][] points, int k)

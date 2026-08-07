@@ -1,3 +1,6 @@
+#:property TargetFramework=net10.0
+#:property PublishAot=false
+
 // It can only run on an input that already is in some type of sorted order
 int[] arr = { 1, 3, 3, 4, 5, 6, 7, 8 };
 
