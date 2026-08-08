@@ -1,0 +1,41 @@
+#:property TargetFramework=net10.0
+#:property PublishAot=false
+namespace Tree;
+// Binary Search tree time complexity is O(logn) in the average case and O(n) in the worst.
+// Nodes should be order in some way to use this algorithm.
+// It should be a balanced tree or time complexity would be O(n).
+public class TreeNode
+{
+    public int Val;
+    public TreeNode Left = null;
+    public TreeNode Right = null;
+
+    TreeNode(int val)
+    {
+        this.Val = val;
+    }
+}
+
+public class Search
+{
+    public bool SearchNode(TreeNode root, int target)
+    {
+        if (root == null)
+        {
+            return false;
+        }
+
+        if (target > root.Value)
+        {
+            return SearchNode(root.Right, target);
+        }
+        else if (target < root.Value)
+        {
+            return SearchNode(root.Left, target);
+        }
+        else
+        {
+            return true;
+        }
+    }
+}
